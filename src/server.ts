@@ -4,8 +4,8 @@ import express, {
   Request,
   Response
  } from 'express'; //op2
-import routesProducto from '../routes/producto';
-import db from '../db/connection';
+import routesProducto from './routes/producto';
+import db from './db/connection';
 
 class Server {
   // private app: express.Application; //op1
